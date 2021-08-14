@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #34d399;
+  --focus-text: tan;
+  --off-white: #f8f0e3;
+}
+input {
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  border: 1px var(--primary-color) solid;
+  border-radius: 1rem;
+}
+#meaning {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: larger;
+}
+span {
+  font-size: 2.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+h3 {
+  margin: 3rem auto;
+}
+#emojiContainer {
+  width: 450px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px var(--primary-color) solid;
+  border-radius: 1rem;
+}
